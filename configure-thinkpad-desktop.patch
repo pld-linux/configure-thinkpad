@@ -1,0 +1,17 @@
+--- configure-thinkpad-0.9.orig/configure-thinkpad.desktop	2004-07-12 03:42:43.000000000 +0200
++++ configure-thinkpad-0.9/configure-thinkpad.desktop	2006-08-14 22:44:20.000000000 +0200
+@@ -1,7 +1,12 @@
+ [Desktop Entry]
+ Name=Configure ThinkPad
++Name[pl]=Konfiguracja ThinkPada
+ Comment=IBM ThinkPad Configuration Tool
++Comment[pl]=Narzędzie konfiguracyjne ThinkPada IBM
+ Exec=configure-thinkpad
+-Icon=configure-thinkpad/gnome-laptop.png
++Icon=configure-thinkpad
+ Type=Application
+-Categories=Application;System;
++Terminal=false
++Encoding=UTF-8
++StartupNotify=true
++Categories=GTK;GNOME;Settings;HardwareSettings;
