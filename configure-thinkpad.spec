@@ -9,11 +9,11 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/tpctl/%{name}-%{version}.tar.gz
 # Source0-md5:	b0d6c3dd3a0867248fb6bfc2d41881f5
 Patch0:		%{name}-desktop.patch
-#Patch1:		%{name}-makefile.patch
-URL:		http://tpctl.sourceforge.net/http://tpctl.sourceforge.net/
+URL:		http://tpctl.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libgnomeui-devel
+BuildRequires:	pkgconfig
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,7 +26,6 @@ Narzêdzie konfiguracyjne GNOME do laptopów IBM ThinkPad
 %prep
 %setup -q
 %patch0 -p1
-#patch1 -p1
 
 %build
 %{__aclocal}
