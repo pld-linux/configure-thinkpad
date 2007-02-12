@@ -1,6 +1,6 @@
 %define		_name	thinkpad
 Summary:	GNOME configuration tool for IBM ThinkPad laptops
-Summary(pl.UTF-8):   Narzędzie konfiguracyjne GNOME do laptopów IBM ThinkPad
+Summary(pl.UTF-8):	Narzędzie konfiguracyjne GNOME do laptopów IBM ThinkPad
 Name:		configure-thinkpad
 Version:	0.9
 Release:	1
